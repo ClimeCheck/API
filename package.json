@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "SET NODE_ENV=production & node server.js",
+    "start": "SET NODE_ENV=production & pm2 start server.js --name climecheck",
     "dev": "nodemon app"
   },
   "repository": {
